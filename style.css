@@ -1,0 +1,25 @@
+table, th, td {
+    border: 1px solid black;
+    height: 50px;
+    background-color:lightblue ;
+  }
+  table{
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+tr{
+  padding: 3px;
+}
+tr{
+  margin-left: 20pt;
+}
+#b1{
+  background-color: darksalmon;
+  padding: 10px;
+  width: 70px;
+  border-radius: 10px;
+}
+#rr1
+{
+  background-color:darksalmon;
+}
