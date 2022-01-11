@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *
+        {
+            box-sizing: border-box;
+        }
         header{
             background-color: rgb(230, 134, 187);
             text-align: center;
@@ -15,20 +19,22 @@
         }
         section{
             background-color: antiquewhite;
-            width: 150px;
+            width: auto;
             height: 500px;
             font-size: 15px;
             margin: 0;
-            display: inline-block
+            
         }
+        
         li{
             padding: 3px;
         }
-        nav, article {
-    width: 100%;
-    height: auto;
-    display: inline-flexbox;
-  }
+        nav
+        {
+            
+            
+        }
+        
 
         footer{
             text-align: right;
@@ -36,7 +42,34 @@
             border: 2px solid black;
             background-color:rgb(230, 134, 187);
         }
+        section{
+            display: inline-block;
+            background-color: antiquewhite;
+            border: 2 px solid brown ;
+        }
+        section::after{
+            display: flex;
+            text-align: center;
+           
+        }
         article{
+            background-color: rgb(246, 222, 190);
+            margin :auto;
+            width: 80%;
+            height: 400px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: opx;
+            font-size: 20px;
+            padding: 5px;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        nav{
+            
+            display: inline-block;
             
         }
         
@@ -45,18 +78,20 @@
 <body>
     
     <header>language</header>
-    <section>
+    <section >
         <nav>
             <li><a href="#">Home</a></li>
             <li><a href="#">about us</a></li>
             <li><a href="#">contact us</a> </li>
             
         </nav>
-       
+        
+       <article>
+        <h1>Java</h1>
+        Java is one of the world's most important and widely used computer languages, and it has held this distinction for many years. Unlike some other computer languages whose influence has weared with passage of time, while Java's has grown.
+        Java is a high level, robust, object-oriented and a secure and stable programming language but it is not a pure object-oriented language because it supports primitive data types like int, char etc.</article>
     </section>
-    <article>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui non provident unde suscipit possimus sit dolore voluptates doloremque rem illo facilis saepe incidunt modi magnam minima error repellendus soluta, doloribus voluptate molestias, dolores illum laudantium? Iure laudantium quasi aut eveniet necessitatibus rem sint architecto eligendi recusandae, ea fugiat vitae quisquam atque exercitationem similique hic voluptatibus, quae voluptatum odio tenetur natus. Iusto, quam? Minus, suscipit?</p>
-    </article>
+    
     
     <footer> &copy All rights reseverd </footer>
     
